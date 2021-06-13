@@ -266,7 +266,7 @@ label {
   color: #fff;
 }
 .btn.transparent-btn:hover {
-  border: 2px solid #e4a101;
+  border: 2px solid #00bff8;
   color: #1c1121;
 }
 .btn.transparent-btn::before {
@@ -291,7 +291,7 @@ label {
   bottom: 0;
   border-radius: 0;
   left: auto;
-  background-color: #e4a101;
+  background-color: #00bff8;
 }
 .btn.btn-style-two::after {
   content: "";
@@ -307,7 +307,7 @@ label {
   bottom: 0;
   border-radius: 0;
   left: auto;
-  background-color: #e4a101;
+  background-color: #00bff8;
 }
 .btn.btn-style-two:hover::before {
   right: 0;
@@ -318,7 +318,7 @@ label {
 
 /* scrollUp */
 #scrollUp {
-  background: #e4a101;
+  background: #00bff8;
   height: 40px;
   width: 40px;
   right: 50px;
@@ -336,7 +336,7 @@ label {
 
 /* 2. Header */
 .header-top-area {
-  background: #1c1121;
+  background: #edeaea;
 }
 .container-full-padding {
   padding: 0 260px;
@@ -367,7 +367,7 @@ label {
   padding: 16px 25px;
   font-weight: 900;
   font-size: 18px;
-  color: #1c1121;
+  color: #dcdcdc;
   position: relative;
   z-index: 1;
 }
@@ -442,7 +442,7 @@ ul.minicart .cart-content a:hover,
 .newsletter-form button:hover,
 .fw-link ul li a:hover,
 .copyright-text p a {
-  color: #e4a101;
+  color: #00bff8;
 }
 .header-top-action ul {
   display: flex;
@@ -473,8 +473,8 @@ ul.minicart .cart-content a:hover,
 }
 .header-user-login > a {
   display: block;
-  background: #181719;
-  color: #edeaea;
+  background: #edeaea;
+  color: #00bff8;
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
@@ -482,7 +482,7 @@ ul.minicart .cart-content a:hover,
   height: 35px;
   line-height: 35px;
   padding: 0 18px 0 0;
-  border-top: 1px solid #e4a101;
+  border-top: 1px solid #00bff8;
 }
 .header-user-login > a i {
   display: inline-block;
@@ -493,12 +493,13 @@ ul.minicart .cart-content a:hover,
   background-repeat: no-repeat;
   background-size: cover;
   margin-right: 15px;
-  color: #1c1121;
+  color: #dcdcdc;
 }
 .main-header {
-  background-image: url(./../img/bg/header_bg.jpg);
-  background-position: right center;
-  background-size: cover;
+  /* background-image: url(./../img/bg/header_bg.jpg); */
+  /* background-position: right center;
+  background-size: cover; */
+  background-color: #dcdcdc;
   position: relative;
 }
 .main-menu nav {
@@ -524,7 +525,7 @@ ul.minicart .cart-content a:hover,
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #edeaea;
+  color: #00bff8;
   padding: 43px 26px;
   display: block;
   line-height: 1;
@@ -552,13 +553,13 @@ ul.minicart .cart-content a:hover,
   content: "";
   position: absolute;
   height: 3px;
-  background: #e4a101;
+  background: #00bff8;
   right: 40px;
   left: 0;
   bottom: 0;
 }
 .navbar-wrap ul li:hover > a {
-  color: #1c1121;
+  color: #fff;
 }
 .navbar-wrap ul li.show,
 .navbar-wrap ul li.show a::before,
@@ -566,7 +567,7 @@ ul.minicart .cart-content a:hover,
   opacity: 1;
 }
 .navbar-wrap ul li.show > a {
-  color: #1c1121;
+  color: #dcdcdc;
 }
 .navbar-wrap ul li.active > a::before {
   opacity: 1;
@@ -584,7 +585,7 @@ ul.minicart .cart-content a:hover,
   margin-left: 0;
 }
 .header-action ul li a {
-  color: #edeaea;
+  color: #00bff8;
   font-size: 14px;
 }
 .header-shop-cart a span {
@@ -606,14 +607,16 @@ ul.minicart .cart-content a:hover,
   display: block;
   text-align: center;
   line-height: 48px;
-  background: #111111;
+  background: #dcdcdc;
   border-radius: 5px;
   font-size: 13px;
-  box-shadow: 0px 3px 7px 0px rgba(128, 18, 40, 0.2),
-    inset 0px 3px 7px 0px rgba(56, 17, 33, 0.4);
+  /* box-shadow: 0px 3px 7px 0px rgba(128, 18, 40, 0.2),
+    inset 0px 3px 7px 0px rgba(56, 17, 33, 0.4); */
+  box-shadow: 0px 3px 7px 0px #fff, inset 0px 3px 7px 0px #fff;
 }
 .header-shop-cart ul.minicart {
-  background: #1c1121;
+  /* background: #1c1121; */
+  background: #dcdcdc;
   opacity: 0;
   padding: 25px;
   position: absolute;
@@ -700,7 +703,7 @@ ul.minicart .cart-price .new {
   margin-bottom: 0;
 }
 .header-shop-cart .minicart .checkout-link a {
-  color: #1c1121;
+  color: #fff;
   display: block;
   font-weight: 500;
   padding: 16px 30px;
@@ -711,8 +714,9 @@ ul.minicart .cart-price .new {
   letter-spacing: 2px;
 }
 .header-shop-cart .minicart .checkout-link a.red-color {
-  background: #291b35;
-  color: #fff;
+  /* background: #291b35; */
+  background: #edeaea;
+  color: #000;
 }
 .menu-style-two .navbar-wrap ul li.show a::after,
 .menu-style-two .navbar-wrap ul li:hover > a::after {
@@ -1138,7 +1142,7 @@ ul.minicart .cart-price .new {
 .shop-area.black-bg .product-cart-action a:hover,
 .latest-match-box .tournament-schedule-meta a:hover,
 .features-item .features-list-content .product-tag a:hover::before {
-  background: #e4a101;
+  background: #00bff8;
 }
 
 /* 4. Breadcrumb */
@@ -1220,7 +1224,7 @@ ul.minicart .cart-price .new {
   color: #fff;
 }
 .game-overview-status ul li:first-child {
-  color: #e9a301;
+  color: #00bff8;
 }
 .game-overview-breadcrumb .breadcrumb-content h2 {
   margin-bottom: 36px;
@@ -1659,7 +1663,7 @@ ul.minicart .cart-price .new {
 .latest-games-active.owl-carousel .owl-nav button:hover,
 .product-active .slick-arrow:hover,
 .testimonial-active.owl-carousel .owl-nav button:hover {
-  border-color: #e4a101;
+  border-color: #00bff8;
 }
 .home-four-title h2 {
   text-transform: uppercase;
@@ -2094,7 +2098,7 @@ ul.minicart .cart-price .new {
 .released-rating {
   display: flex;
   font-size: 14px;
-  color: #e9a301;
+  color: #00bff8;
   align-items: center;
 }
 .released-game-content h4 {
@@ -2186,7 +2190,7 @@ ul.minicart .cart-price .new {
   top: 50%;
   height: 20px;
   width: 20px;
-  border: 1px solid #e4a101;
+  border: 1px solid #00bff8;
   transform: translate(-50%, -50%);
   border-radius: 50%;
   transition: 0.3s linear;
@@ -2196,7 +2200,7 @@ ul.minicart .cart-price .new {
   opacity: 1;
 }
 .released-game-active .slick-dots li.slick-active button {
-  background: #e4a101;
+  background: #00bff8;
 }
 
 /* 10. Game Manage */
@@ -2219,7 +2223,7 @@ ul.minicart .cart-price .new {
   padding: 30px 35px 40px;
 }
 .coming-match-item {
-  border-top: 5px solid #e4a101;
+  border-top: 5px solid #00bff8;
   background-color: rgb(33, 19, 44);
   box-shadow: 0px 5px 12.09px 0.91px rgba(0, 0, 0, 0.34);
 }
@@ -2254,7 +2258,7 @@ ul.minicart .cart-price .new {
 }
 .match-rating i {
   font-size: 12px;
-  color: #e4a101;
+  color: #00bff8;
 }
 .match-rating {
   line-height: 1;
@@ -2328,7 +2332,8 @@ ul.minicart .cart-price .new {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(233, 163, 1, 0.749);
+  /* background-color: rgba(233, 163, 1, 0.749); */
+  background-color: #00bff8;
   transition: 0.3s linear;
   opacity: 0;
 }
@@ -2354,7 +2359,7 @@ ul.minicart .cart-price .new {
 }
 .featured-game-content h4 span,
 .featured-game-meta i {
-  color: #e9a301;
+  color: #00bff8;
 }
 .featured-game-content h4 a:hover {
   color: #fff;
@@ -2546,7 +2551,7 @@ ul.minicart .cart-price .new {
   margin-left: 18px;
 }
 .tournament-schedule-meta a:hover {
-  border: 1px solid #e4a101;
+  border: 1px solid #00bff8;
   color: #1c1121;
 }
 .latest-match-bg {
@@ -2601,7 +2606,7 @@ ul.minicart .cart-price .new {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #e9a301;
+  background: #00bff8;
   transition: 0.3s linear;
   opacity: 0;
 }
@@ -2834,7 +2839,8 @@ ul.minicart .cart-price .new {
   margin-bottom: 0;
 }
 .just-gamers-list ul li:hover .just-gamers-list-icon {
-  border-color: #e9a301;
+  /* border-color: #00BFF8; */
+  border-color: #00bff8;
 }
 .just-gamers-list ul li:last-child {
   margin-bottom: 0;
@@ -3007,7 +3013,7 @@ ul.minicart .cart-price .new {
 .product-cart-action a:hover,
 .shop-area.black-bg .product-cart-action a:hover {
   color: #1c1121;
-  border-color: #e4a101;
+  border-color: #00bff8;
 }
 .product-active .slick-arrow {
   position: absolute;
@@ -3044,8 +3050,8 @@ ul.minicart .cart-price .new {
   border: 3px solid #6e6b6f;
 }
 .shop-area.black-bg .product-active .slick-arrow:hover {
-  color: #e4a101;
-  border-color: #e4a101;
+  color: #00bff8;
+  border-color: #00bff8;
 }
 .accessories-thumb img {
   width: 100%;
@@ -3061,7 +3067,7 @@ ul.minicart .cart-price .new {
   margin-bottom: 5px;
 }
 .accessories-content h5 a:hover {
-  color: #e9a301;
+  color: #00bff8;
 }
 .accessories-content span {
   font-size: 14px;
@@ -3079,7 +3085,7 @@ ul.minicart .cart-price .new {
   visibility: hidden;
   font-size: 14px;
   font-weight: 500;
-  color: #e9a301;
+  color: #00bff8;
 }
 .accessories-item:hover .accessories-content .shop-add-action {
   opacity: 1;
@@ -3102,8 +3108,8 @@ ul.minicart .cart-price .new {
   border: 1px solid #3d2f48;
 }
 .home-four-shop-area .product-cart-action a:hover {
-  background: #e9a301;
-  border: 1px solid #e9a301;
+  background: #00bff8;
+  border: 1px solid #00bff8;
 }
 .home-four-shop-area .product-content {
   padding: 40px 25px 25px;
@@ -3137,7 +3143,7 @@ ul.minicart .cart-price .new {
   margin-bottom: 0;
 }
 .uc-game-head-title h4 a:hover {
-  color: #e9a301;
+  color: #00bff8;
 }
 .upcoming-game-head {
   display: flex;
@@ -3168,7 +3174,7 @@ ul.minicart .cart-price .new {
   z-index: -1;
   right: 0;
   margin: 0 auto;
-  background: #e4a101;
+  background: #00bff8;
   box-shadow: 0px 1px 8.37px 0.63px rgba(114, 113, 113, 0.18);
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
@@ -3195,7 +3201,7 @@ ul.minicart .cart-price .new {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #e4a101;
+  background: #00bff8;
   opacity: 0;
   transition: 0.3s linear;
 }
@@ -3348,7 +3354,7 @@ ul.minicart .cart-price .new {
   margin-bottom: 5px;
 }
 .overview-list-content h4 a:hover {
-  color: #e9a301;
+  color: #00bff8;
 }
 .overview-list-content span {
   display: block;
@@ -3373,7 +3379,7 @@ ul.minicart .cart-price .new {
 }
 .overview-list-price h4 {
   font-size: 18px;
-  color: #e9a301;
+  color: #00bff8;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
   margin-bottom: 0;
@@ -3463,7 +3469,7 @@ ul.minicart .cart-price .new {
   margin-bottom: 10px;
 }
 .blog-style-two .blog-post-content h4 a:hover {
-  color: #e9a301;
+  color: #00bff8;
 }
 .blog-style-two .blog-meta ul li,
 .blog-style-two .blog-meta ul li a {
@@ -3513,7 +3519,7 @@ ul.minicart .cart-price .new {
   z-index: -1;
   right: 0;
   margin: 0 auto;
-  background: #e4a101;
+  background: #00bff8;
   box-shadow: 0px 1px 8.37px 0.63px rgba(114, 113, 113, 0.18);
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
@@ -3528,7 +3534,7 @@ ul.minicart .cart-price .new {
   margin-bottom: 10px;
 }
 .blog-list-post-content h2 a:hover {
-  color: #e4a101;
+  color: #00bff8;
 }
 .blog-list-post-content .blog-meta ul {
   margin-bottom: 20px;
@@ -3577,7 +3583,7 @@ ul.minicart .cart-price .new {
 }
 .blog-list-post-bottom ul li > a i {
   margin-left: 10px;
-  color: #e4a101;
+  color: #00bff8;
 }
 .blog-list-post-bottom ul li:last-child {
   display: flex;
@@ -3589,7 +3595,7 @@ ul.minicart .cart-price .new {
   margin-left: 15px;
 }
 .blog-list-post-bottom ul li a:hover {
-  color: #e4a101;
+  color: #00bff8;
 }
 .blog-sidebar {
   background: #252525;
@@ -3609,7 +3615,7 @@ ul.minicart .cart-price .new {
   margin-bottom: 0;
 }
 .sidebar-widget-title h4 span {
-  color: #e4a101;
+  color: #00bff8;
 }
 .sidebar-widget-title h4::before,
 .sidebar-widget-title h4::after {
@@ -3619,7 +3625,7 @@ ul.minicart .cart-price .new {
   top: 0;
   width: 3px;
   height: 22px;
-  background: #e4a101;
+  background: #00bff8;
 }
 .sidebar-widget-title h4::after {
   left: 7px;
@@ -3654,7 +3660,7 @@ ul.minicart .cart-price .new {
   padding: 0;
   background: none;
   border: none;
-  color: #e9a301;
+  color: #00bff8;
   top: 50%;
   transform: translateY(-50%);
   cursor: pointer;
@@ -3679,7 +3685,7 @@ ul.minicart .cart-price .new {
 }
 .sidebar-cat ul li a:hover,
 .rc-post-content h5 a:hover {
-  color: #e9a301;
+  color: #00bff8;
 }
 .rc-post-list ul li {
   display: flex;
@@ -3727,7 +3733,7 @@ ul.minicart .cart-price .new {
   align-items: center;
 }
 .sidebar-trend-match-action span:last-child {
-  color: #e4a101;
+  color: #00bff8;
 }
 .sidebar-trend-match-action span:nth-child(2) {
   color: #838383;
@@ -3769,7 +3775,7 @@ ul.minicart .cart-price .new {
   padding: 15px 20px;
 }
 .sidebar-tag-list ul li a:hover {
-  color: #e4a101;
+  color: #00bff8;
 }
 .blog-details-wrap .blog-list-post-content {
   padding: 45px 35px;
@@ -3797,7 +3803,7 @@ ul.minicart .cart-price .new {
   font-weight: 700;
   line-height: 26px;
   padding-left: 20px;
-  border-left: 4px solid #e4a101;
+  border-left: 4px solid #00bff8;
 }
 .blog-details-list li {
   font-size: 14px;
@@ -3841,7 +3847,7 @@ ul.minicart .cart-price .new {
   color: #434243;
 }
 .blog-details-wrap .blog-list-post-bottom ul li > i {
-  color: #e4a101;
+  color: #00bff8;
   font-size: 12px;
   margin-right: 5px;
 }
@@ -3849,7 +3855,7 @@ ul.minicart .cart-price .new {
 .blog-details-wrap .blog-list-post-bottom ul li .blog-post-share a:hover,
 .comment-avatar-info h4 a:hover,
 .community-post-content span a:hover {
-  color: #e4a101;
+  color: #00bff8;
 }
 .sidebar-widget-title.blog-details-title h4 {
   font-size: 24px;
@@ -3895,7 +3901,7 @@ ul.minicart .cart-price .new {
 }
 .comment-reply a {
   font-size: 12px;
-  color: #e4a101;
+  color: #00bff8;
 }
 .comment-text p {
   font-size: 14px;
@@ -4015,7 +4021,7 @@ ul.minicart .cart-price .new {
 .pagination-wrap ul li a {
   display: block;
   background: #252525;
-  color: #e9a301;
+  color: #00bff8;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
@@ -4024,7 +4030,7 @@ ul.minicart .cart-price .new {
   padding: 16px 24px;
 }
 .pagination-wrap ul li a:hover {
-  background: #e9a301;
+  background: #00bff8;
   color: #252525;
 }
 
@@ -4160,7 +4166,7 @@ ul.minicart .cart-price .new {
 }
 .testimonial-rating i {
   font-size: 14px;
-  color: #e4a101;
+  color: #00bff8;
 }
 .testimonial-content p {
   font-size: 18px;
@@ -4281,7 +4287,7 @@ ul.minicart .cart-price .new {
   z-index: -1;
   right: 0;
   margin: 0 auto;
-  background: #e4a101;
+  background: #00bff8;
   box-shadow: 0px 1px 8.37px 0.63px rgba(114, 113, 113, 0.18);
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
@@ -4313,7 +4319,7 @@ ul.minicart .cart-price .new {
   position: relative;
 }
 .community-wrap .community-bell a {
-  color: #e4a101;
+  color: #00bff8;
 }
 .community-wrap .community-bell::before {
   content: "";
@@ -4389,9 +4395,9 @@ ul.minicart .cart-price .new {
   margin-bottom: 0;
 }
 .community-sidebar-social ul li a:hover {
-  background: #e4a101;
+  background: #00bff8;
   color: #fff;
-  border-color: #e4a101;
+  border-color: #00bff8;
 }
 .community-sidebar-game ul li {
   display: flex;
@@ -4424,7 +4430,7 @@ ul.minicart .cart-price .new {
 }
 .sidebar-new-game-content h5 a:hover,
 .contact-form button:hover {
-  color: #e4a101;
+  color: #00bff8;
 }
 
 /* 24. Contact */
@@ -4455,7 +4461,7 @@ ul.minicart .cart-price .new {
 }
 .contact-info-list ul li i {
   margin-right: 10px;
-  color: #e9a301;
+  color: #00bff8;
 }
 .contact-form textarea {
   width: 100%;
@@ -4474,7 +4480,7 @@ ul.minicart .cart-price .new {
 }
 .contact-form textarea:focus,
 .contact-form input:focus {
-  border-color: #e9a301;
+  border-color: #00bff8;
 }
 .contact-form input {
   width: 100%;
@@ -4498,7 +4504,7 @@ ul.minicart .cart-price .new {
   cursor: pointer;
   line-height: 1;
   padding-bottom: 20px;
-  border-bottom: 2px solid #e9a301;
+  border-bottom: 2px solid #00bff8;
   margin-top: 16px;
   transition: 0.3s linear;
 }
@@ -4629,11 +4635,11 @@ ul.minicart .cart-price .new {
   transition: 0.3s linear;
 }
 .newsletter-form button::before {
-  border-color: transparent transparent #e4a101 transparent;
+  border-color: transparent transparent #00bff8 transparent;
   transition: 0.3s linear;
 }
 .newsletter-form button::after {
-  border-color: #e4a101 transparent transparent transparent;
+  border-color: #00bff8 transparent transparent transparent;
   transition: 0.3s linear;
 }
 .newsletter-form button:hover {
@@ -4859,7 +4865,7 @@ ul.minicart .cart-price .new {
   font-weight: 500;
 }
 .fw-quick-link ul li + li {
-  margin-top: 10px;
+  margin-top: 11px;
 }
 .third-copyright-wrap {
   background: #131418;
@@ -4888,3 +4894,5 @@ ul.minicart .cart-price .new {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+
+
